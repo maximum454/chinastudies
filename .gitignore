@@ -1,0 +1,26 @@
+# cache directories
+Thumbs.db
+*.DS_Store
+*.empty
+*.[oa]
+*~
+
+#test
+
+#phpstorm project files
+.idea
+atlassian-ide-plugin.xml
+
+#netbeans project files
+nbproject
+
+#eclipse, zend studio, aptana or other eclipse like project files
+.buildpath
+.project
+.settings
+
+# sass cache files
+*.sass-cache
+
+/upload/
+node_modules
