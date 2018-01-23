@@ -1,0 +1,76 @@
+.seo-text{
+  width: 100%;
+  background-color: $primary4;
+  position: relative;
+  padding: 30px 20px;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    background-image: url("../img/cloud__before.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 255px;
+    height: 93px;
+    z-index: 0;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url("../img/cloud__after.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 444px;
+    height: 163px;
+  }
+  &__inner{
+    position: relative;
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 10;
+    &:before{
+      content: '';
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translate(-50%,0);
+      background-image: url("../img/flashlights__center.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 256px;
+      height: 164px;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      transform: translate(-50%,0);
+      background-image: url("../img/cloud__center.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 128px;
+      height: 47px;
+    }
+  }
+  &__img{
+    width: 113px;
+    height: 113px;
+    flex-shrink: 0;
+    margin-right: 30px;
+  }
+  &__txt{
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

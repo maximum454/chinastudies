@@ -22,6 +22,24 @@
       color: $primary4;
     }
   }
-
+  &__text{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 26px;
+    color: $primary5;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  &__copy{
+    width: 100%;
+    padding: 40px 20px;
+    color: $primary5;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
 
 }

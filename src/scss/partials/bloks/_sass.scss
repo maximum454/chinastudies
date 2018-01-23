@@ -1,0 +1,32 @@
+.sass{
+  width: 100%;
+  background-color: $primary6;
+  padding: 28px 20px;
+  &__inner{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__img{
+    flex-shrink: 0;
+    width: 95px;
+    margin-right: 20px;
+  }
+  &__txt{
+    color: $primary5;
+    font-size: 14px;
+    line-height: 16px;
+    img{
+      vertical-align: middle;
+      margin:0 20px;
+    }
+    a{
+      color: $primary3;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}
