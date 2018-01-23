@@ -1,0 +1,28 @@
+.fast-news{
+    position: relative;
+    width: 100%;
+    background-color: rgba($primary4,.7);
+    &__inner{
+        width: 100%;
+        max-width: 1204px;
+        margin: 0 auto;
+        padding: 25px 81px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__item{
+        display: block;
+        color: $primary1;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        padding-right: 32px;
+        margin-right: 37px;
+        border-right: 1px dashed $primary3;
+        &:last-child{
+            border-right: 0;
+        }
+    }
+}

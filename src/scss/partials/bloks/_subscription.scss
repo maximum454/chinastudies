@@ -1,0 +1,29 @@
+.subscription{
+  position: relative;
+  width: 100%;
+  &__input{
+    background-color: $primary1;
+    width: 100%;
+    height: 50px;
+    padding: 0 14px;
+    border: 1px solid $primary4;
+    color: $primary5;
+    font-size: 14px;
+    outline: none;
+  }
+  &__submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $primary4;
+    background-image: url("../img/subscription__submit.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 64px;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-indent: -999999px;
+    cursor: pointer;
+  }
+}

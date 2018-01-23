@@ -1,0 +1,14 @@
+<svg width="16" height="32" viewBox="0 0 16 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>fb-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1320 -414)">
+<g id="fb-icon">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(1320 414)" fill="#E6A74D"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 15.1519 17.5238L 15.8869 11.6044L 10.4028 11.6044L 10.4028 7.50183C 10.4028 6.32967 11.3074 5.39194 12.4382 5.39194L 16 5.39194L 16 0L 11.0813 0C 7.57597 0 4.74912 2.9304 4.74912 6.5641L 4.74912 11.5458L 0 11.5458L 0 17.4652L 4.74912 17.4652L 4.74912 32L 10.4594 32L 10.4594 17.5238L 15.1519 17.5238Z"/>
+</defs>
+</svg>

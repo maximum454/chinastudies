@@ -1,70 +1,27 @@
 .footer{
-	width: 100%;
-	height: 356px;
-	position: relative;
-	background-image: url("../img/footer-bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	&:before{
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		background-color: rgba($primary4,.7);
-		width: 100%;
-		height: 100%;
-	}
-	&__inner{
-		position: relative;
-		z-index: 10;
-		width: 100%;
-		max-width: 1040px;
-		height: 100%;
-		margin: 0 auto;
-		padding: 20px 10px;
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-end;
-	}
-	&__copy{
-		color: $primary1;
-	}
-	.likely{
-		text-align: center;
-	}
-	&__contact{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	&__tel{
-		display: block;
-		text-align: center;
-		text-decoration: none;
-		cursor: pointer;
-		width: 135px;
-		height: 16px;
-		line-height: 16px;
-		color: $primary1;
-		font-size: 16px;
-		font-weight: normal;
-	}
-	@include r(640){
-		height: auto;
-		padding: 20px;
-	}
-	@include r(640){
-		&__inner{
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-		&__copy{
-			margin-bottom: 30px;
-		}
-	}
-	@include r(320){
-		&__copy{
-			text-align: center;
-		}
-	}
+  width: 100%;
+  position: relative;
+  background-image: url("../img/footer-bg.png");
+  &__inner{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  &__slogan{
+    width: 100%;
+    background-color: $primary5;
+    padding: 11px 0;
+    color: $primary1;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    span{
+      color: $primary4;
+    }
+  }
+
+
 }
