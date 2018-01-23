@@ -1,0 +1,10 @@
+.all-block{
+  background-color: $primary1;
+  background-image: url("../img/all-block__bg.png");
+  width: 100%;
+  padding: 40px 20px;
+  &__inner{
+    width: 100%;
+    max-width: 1180px;
+  }
+}
