@@ -7,7 +7,7 @@
 @import "base/mixin";
 
 /*venders*/
-
+@import "vendors/slick";
 
 /*blocks kapital*/
 @import "bloks/header";
@@ -22,4 +22,9 @@
 @import "bloks/subscription";
 @import "bloks/sass";
 @import "bloks/all-block";
+@import "bloks/slider-strategy";
+@import "bloks/main";
+@import "bloks/aside";
+@import "bloks/breadcrumbs";
+@import "bloks/about";
 

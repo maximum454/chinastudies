@@ -2,6 +2,7 @@
   width: 100%;
   position: relative;
   background-image: url("../img/footer-bg.png");
+  z-index: 1;
   &__inner{
     width: 100%;
     max-width: 1110px;

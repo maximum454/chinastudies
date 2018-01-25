@@ -1,0 +1,11 @@
+.download-pdf{
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+  &__name{
+    color: $primary4;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 25px;
+  }
+}
