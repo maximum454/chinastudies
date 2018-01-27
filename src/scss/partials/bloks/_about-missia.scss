@@ -1,0 +1,51 @@
+.about-missia{
+  position: relative;
+  margin-bottom: 20px;
+  &__header{
+    color: $primary5;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  &__inner{
+  }
+  &__item{
+    padding-left: 95px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid $primary4;
+    position: relative;
+    margin-bottom: 30px;
+    &:last-of-type{
+      border-bottom: none;
+    }
+  }
+  &__num{
+    position: absolute;
+    top: -9px;
+    left: 0;
+    background-color: $primary3;
+    width: 65px;
+    height: 65px;
+    color: $primary4;
+    font-size: 36px;
+    line-height: 65px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 7px 30px -1px rgba($primary4,.9);
+  }
+  &__name{
+    color: $primary4;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    margin-bottom: 23px;
+  }
+  &__txt,p{
+    color: $primary5;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

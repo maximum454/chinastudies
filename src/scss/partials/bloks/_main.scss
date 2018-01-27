@@ -26,6 +26,29 @@
   &__content{
     width: 100%;
     max-width: 730px;
+    a[href^="mailto:"]{
+      display: block;
+      position: relative;
+      margin: 20px 0;
+      padding-left: 30px;
+      color: $primary3;
+      font-size: 18px;
+      line-height: 21px;
+      font-weight: bold;
+      text-decoration: none;
+      &:before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0,-50%);
+        background-image: url("../img/mail-at.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 16px;
+      }
+    }
   }
   &__header{
     position: relative;
