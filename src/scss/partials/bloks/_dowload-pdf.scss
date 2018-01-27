@@ -2,10 +2,38 @@
   position: relative;
   width: 100%;
   margin-bottom: 25px;
+  &__inner{
+    background-color: $primary1;
+    padding: 20px;
+    box-shadow: 0 0 50px -10px rgba($primary5,.6);
+  }
   &__name{
     color: $primary4;
     font-size: 18px;
     line-height: 21px;
-    padding-left: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 55px;
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url("../img/download__icon.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 44px;
+      height: 45px;
+    }
+  }
+  p{
+    margin: 0;
+    padding: 0;
+    color: $primary5;
+    font-size: 12px;
+    line-height: 14px;
   }
 }
