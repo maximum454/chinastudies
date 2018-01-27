@@ -28,7 +28,7 @@
                     <a href="mailto:info@chinastudies.kz">info@chinastudies.kz</a>
                     <hr>
                     <form class="form-contacts" action="">
-                        <div class="form-contacts__header"></div>
+                        <div class="form-contacts__header">ФОРМА ОБРАТНОЙ СВЯЗИ</div>
                         <div class="form-contacts__inner">
                             <div class="form-contacts__item">
                                 <input class="form-contacts__input" type="text" placeholder="Введите ФИО">
@@ -42,23 +42,76 @@
                             <div class="form-contacts__item">
                                 <input class="form-contacts__input" type="text" placeholder="Тема письма (не обязательно)">
                             </div>
-                            <div class="form-contacts__item">
-                                <textarea class="form-contacts__textarea" name="" id="" cols="30" rows="10" placeholder="Текст письма"></textarea>
-                            </div>
+                            <textarea class="form-contacts__textarea" name="" id="" cols="30" rows="10" placeholder="Текст письма"></textarea>
                         </div>
                         <input class="form-contacts__submit" type="submit" value="ОТПРАВИТЬ">
                     </form>
+
+                    <form class="form-subscription" action="">
+                        <div class="form-subscription__header">ПОДПИСКА НА НОВОСТНУЮ РАССЫЛКУ</div>
+                        <div class="form-subscription__inner">
+                            <div class="form-subscription__item">
+                                <input class="form-contacts__input" type="text" placeholder="Введите ФИО">
+                            </div>
+                            <div class="form-subscription__item">
+                                <input class="form-contacts__input" type="email" placeholder="Электронная почта">
+                            </div>
+                        </div>
+                        <input class="form-subscription__submit" type="submit" value="ОТПРАВИТЬ">
+                    </form>
+
+                    <hr>
+
+                    <div class="useful-materials">
+                        <div class="useful-materials__header"></div>
+                        <div class="useful-materials__inner">
+                            <a href="#" class="useful-materials__item">
+                                <div class="useful-materials__img">
+                                    <img src="img/del/useful-materials__img1.png" alt="">
+                                </div>
+                                <div class="useful-materials__txt">
+                                    <div class="useful-materials__name">СОВРЕМЕННЫЙ КИТАЙ</div>
+                                    <div class="useful-materials__anons">Международные исследования</div>
+                                </div>
+                            </a>
+                            <a href="#" class="useful-materials__item">
+                                <div class="useful-materials__img">
+                                    <img src="img/del/useful-materials__img1.png" alt="">
+                                </div>
+                                <div class="useful-materials__txt">
+                                    <div class="useful-materials__name">РЕГИОНЫ КНР</div>
+                                    <div class="useful-materials__anons">Статистические данные по международной проблематике</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
             </section>
             <aside class="main__aside">
                 //= template/aside.html
-                <div class="download-pdf">
-                    <div class="download-pdf__inner">
-                        <a href="#" class="download-pdf__name">СКАЧАТЬ ПРЕЗЕНТАЦИЮ</a>
-                        <p>*.pdf, 2.6 мб</p>
+                <div class="spotlight">
+                    <div class="spotlight__header"><i class="spotlight__icon"></i> В центре внимания</div>
+                    <div class="spotlight__inner">
+                        <div class="spotlight__img">
+                            <img src="img/del/spotlight__img.png" alt="">
+                        </div>
+                        <div class="spotlight__txt">В Пекине завершился 19-й съезд Коммунистической партии Китая</div>
                     </div>
                 </div>
+
+                <div class="in-social">
+                    <div class="in-social__inner">
+                        <a href="#" class="in-social__item facebook">
+
+                        </a>
+                        <a href="#" class="in-social__item instagram">
+
+                        </a>
+                    </div>
+                </div>
+
+
             </aside>
         </div>
     </main>

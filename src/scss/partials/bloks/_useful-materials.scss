@@ -1,0 +1,83 @@
+.useful-materials{
+  position: relative;
+  width: 100%;
+  margin-bottom: 110px;
+  &__header{
+    max-width: 730px;
+    margin: 0 auto;
+    color: $primary4;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  &__inner{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  &__item{
+    max-width: 350px;
+    min-width: 290px;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+  }
+  &__img{
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-color: rgba($primary7,.9);
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__txt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 30px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 39px;
+      transform: translate(0,-50%);
+      background-image: url("../img/useful-materials__icon.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 53px;
+      height: 48px;
+    }
+  }
+  &__name{
+    color: $primary1;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  &__anons{
+    color: $primary1;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+  }
+}

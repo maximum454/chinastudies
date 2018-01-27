@@ -1,0 +1,11 @@
+.in-social{
+  &__header{}
+  &__inner{
+    display: flex;
+    justify-content: space-around;
+  }
+  &__item{
+    display: block;
+    text-decoration: none;
+  }
+}
