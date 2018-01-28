@@ -11,37 +11,21 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  &__item{
+  &__big{
     width: 100%;
-    max-width: 350px;
+    max-width: 100%;
+    height: 330px;
     position: relative;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     text-decoration: none;
     margin-bottom: 44px;
-    &--big{
-      width: 100%;
-      max-width: 100%;
-      position: relative;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      text-decoration: none;
-      margin-bottom: 44px;
-
-    }
-  }
-  &__img{
-    width: 160px;
-    margin-right: 11px;
-    flex-shrink: 0;
-    box-shadow: 0 20px 50px -10px rgba($primary5, .7);
-    &--big{
+    .smi__img{
       position: relative;
       margin-right: 0;
       width: 100%;
-      height: 330px;
+      height: 100%;
       box-shadow: 0 20px 50px -10px rgba($primary3, .7);
       &:after{
         content: '';
@@ -52,7 +36,135 @@
         width: 100%;
         height: 100%;
       }
+      img{
+        display: block;
+      }
     }
+    .smi__txt{
+      display: flex;
+      align-items: flex-start;
+      align-content: space-between;
+      flex-direction: column;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      padding: 30px;
+    }
+    .smi__info{
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-content: center;
+      justify-content: flex-start;
+      text-align: center;
+    }
+    .smi__category{
+      background-color: $primary5;
+      color: $primary1;
+      line-height: 50px;
+      width: 175px;
+      height: 50px;
+    }
+    .smi__date{
+      background-color: $primary4;
+      color: $primary5;
+      line-height: 50px;
+      width: 175px;
+      height: 50px;
+    }
+    .smi__name{
+      color: $primary1;
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: bold;
+      position: absolute;
+      bottom: 30px;
+    }
+  }
+  &__medium{
+    width: 100%;
+    max-width: 350px;
+    height: 228px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 44px;
+    .smi__img{
+      position: relative;
+      margin-right: 0;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 20px 50px -10px rgba($primary5, .7);
+      &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include gradient3;
+        width: 100%;
+        height: 100%;
+      }
+      img{
+        display: block;
+      }
+    }
+    .smi__txt{
+      display: flex;
+      align-items: flex-start;
+      align-content: space-between;
+      flex-direction: column;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      padding: 20px;
+    }
+    .smi__info{
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      text-align: center;
+      background-color: $primary4;
+      height: 37px;
+      padding: 0 20px;
+    }
+    .smi__category{
+      color: $primary1;
+      line-height: 50px;
+    }
+    .smi__date{
+      color: $primary1;
+      line-height: 50px;
+    }
+    .smi__name{
+      color: $primary1;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: bold;
+      position: absolute;
+      bottom: 20px;
+    }
+  }
+  &__item{
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 44px;
+  }
+  &__img{
+    width: 160px;
+    margin-right: 11px;
+    flex-shrink: 0;
+    box-shadow: 0 20px 50px -10px rgba($primary5, .7);
     img{
       display: block;
     }
@@ -63,11 +175,6 @@
     align-content: space-between;
     flex-direction: column;
     height: 100%;
-    &--big{
-      position: absolute;
-      width: 100%;
-      padding: 30px;
-    }
   }
   &__info{
     font-size: 12px;
@@ -77,6 +184,17 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 20px;
+  }
+  &__calendar{
+    display: inline-block;
+    background-image: url("../img/smi__date.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
   }
   &__category{
     color: $primary3;
@@ -89,9 +207,6 @@
     font-size: 14px;
     line-height: 16px;
     font-weight: bold;
-    &--big{
-      color: $primary1;
-    }
   }
   &__btn{
     display: block;

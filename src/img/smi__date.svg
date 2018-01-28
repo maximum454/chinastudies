@@ -1,0 +1,34 @@
+<svg width="18" height="18" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>calendar-1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-10034 -976)">
+<g id="calendar-1">
+<g id="Rectangle 55">
+<use xlink:href="#path0_stroke" transform="translate(10035 978.6)" fill="#F60225"/>
+</g>
+<g id="Line">
+<use xlink:href="#path1_stroke" transform="translate(10039 977)" fill="#F60225"/>
+</g>
+<g id="Line Copy">
+<use xlink:href="#path1_stroke" transform="translate(10046.2 977)" fill="#F60225"/>
+</g>
+<g id="Oval 25 Copy">
+<use xlink:href="#path2_fill" transform="translate(10041.8 983.4)" fill="#F60225"/>
+</g>
+<g id="Oval 25 Copy 2">
+<use xlink:href="#path2_fill" transform="translate(10046.2 983.4)" fill="#F60225"/>
+</g>
+<g id="Oval 25 Copy 5">
+<use xlink:href="#path2_fill" transform="translate(10037.4 987.8)" fill="#F60225"/>
+</g>
+<g id="Oval 25 Copy 4">
+<use xlink:href="#path2_fill" transform="translate(10041.8 987.8)" fill="#F60225"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 3 0.5L 13 0.5L 13 -0.5L 3 -0.5L 3 0.5ZM 15.5 3L 15.5 11.4L 16.5 11.4L 16.5 3L 15.5 3ZM 13 13.9L 3 13.9L 3 14.9L 13 14.9L 13 13.9ZM 0.5 11.4L 0.5 3L -0.5 3L -0.5 11.4L 0.5 11.4ZM 3 13.9C 1.61929 13.9 0.5 12.7807 0.5 11.4L -0.5 11.4C -0.5 13.333 1.067 14.9 3 14.9L 3 13.9ZM 15.5 11.4C 15.5 12.7807 14.3807 13.9 13 13.9L 13 14.9C 14.933 14.9 16.5 13.333 16.5 11.4L 15.5 11.4ZM 13 0.5C 14.3807 0.5 15.5 1.61929 15.5 3L 16.5 3C 16.5 1.067 14.933 -0.5 13 -0.5L 13 0.5ZM 3 -0.5C 1.067 -0.5 -0.5 1.067 -0.5 3L 0.5 3C 0.5 1.61929 1.61929 0.5 3 0.5L 3 -0.5Z"/>
+<path id="path1_stroke" d="M 0.9 0C 0.9 -0.276142 0.676142 -0.5 0.4 -0.5C 0.123858 -0.5 -0.1 -0.276142 -0.1 0L 0.9 0ZM -0.1 3.2C -0.1 3.47614 0.123858 3.7 0.4 3.7C 0.676142 3.7 0.9 3.47614 0.9 3.2L -0.1 3.2ZM -0.1 0L -0.1 3.2L 0.9 3.2L 0.9 0L -0.1 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 1.2 2.4C 1.86274 2.4 2.4 1.86274 2.4 1.2C 2.4 0.537258 1.86274 0 1.2 0C 0.537258 0 0 0.537258 0 1.2C 0 1.86274 0.537258 2.4 1.2 2.4Z"/>
+</defs>
+</svg>
