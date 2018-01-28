@@ -62,10 +62,18 @@
     font-weight: bold;
     text-transform: uppercase;
   }
+  &__h2{
+    color: $primary5;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
   &__aside{
     width: 100%;
     height: 100%;
     max-width: 256px;
+    margin-bottom: 60px;
     position: relative;
     z-index: 10;
   }

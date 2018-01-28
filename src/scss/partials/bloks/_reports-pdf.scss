@@ -1,0 +1,32 @@
+.reports-pdf{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  &__btn{
+    display: block;
+    margin-right: 20px;
+    background-color: $primary3;
+    width: 100%;
+    max-width: 255px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: $primary1;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px -8px rgba($primary4,.9);
+  }
+  span{
+    color: $primary3;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+}
