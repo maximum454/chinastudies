@@ -1,12 +1,13 @@
 .slider-strategy{
   position: relative;
   width: 100%;
+  background-image: url("../img/slider-strategy__bg.png");
   &__inner {
     width: 100%;
     max-width: 920px;
     padding: 50px;
     margin: 0 auto;
-    background-image: url("../img/slider-strategy__bg.png");
+
   }
   &__header{
     color: $primary3;
@@ -34,5 +35,6 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
   }
 }
