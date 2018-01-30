@@ -1,0 +1,8 @@
+.paginator{
+  position: relative;
+  width: 100%;
+  &__inner{
+    display: flex;
+    align-items: center;
+  }
+}
