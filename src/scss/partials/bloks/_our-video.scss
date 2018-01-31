@@ -1,8 +1,9 @@
 .our-video{
   position: relative;
   width: 100%;
+  height: 110px;
   background-color: $primary4;
-  padding: 41px 20px;
+  padding: 0 20px;
   margin-bottom: 70px;
   z-index: 10;
   &:after{
@@ -22,6 +23,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1110px;
+    height: 100%;
     margin: 0 auto;
     position: relative;
     z-index: 10;
@@ -40,5 +42,52 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    img{
+      display: block;
+    }
+  }
+  &__play{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 431px;
+    height: 100%;
+    z-index: 10;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba($primary5,.6);
+      width: 100%;
+      height: 100%;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-image: url("../img/our-video__icon.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 104px;
+      height: 107px;
+    }
+  }
+  &__two{
+    position: absolute;
+    max-width: 256px;
+    bottom: 0;
+    left: -117px;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba($primary5,.6);
+      width: 100%;
+      height: 100%;
+    }
   }
 }
