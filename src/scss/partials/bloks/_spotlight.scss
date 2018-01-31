@@ -26,6 +26,8 @@
     margin-right: 10px;
   }
   &__inner{
+    width: 100%;
+    max-width: 255px;
     background-color: $primary1;
     box-shadow: 0 30px 80px -30px rgba($primary4,.9);
   }

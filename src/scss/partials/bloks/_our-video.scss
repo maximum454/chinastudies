@@ -4,6 +4,7 @@
   background-color: $primary4;
   padding: 41px 20px;
   margin-bottom: 70px;
+  z-index: 10;
   &:after{
     content: '';
     position: absolute;
