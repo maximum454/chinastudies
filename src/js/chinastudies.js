@@ -13,14 +13,14 @@ $(function () {
         arrows: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 8000
     });
     $('.js-slider-strategy').slick({
         infinite: true,
         dots: true,
         arrows: true,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 8000
