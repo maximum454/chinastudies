@@ -5,4 +5,26 @@
     display: flex;
     align-items: center;
   }
+  &__item{
+    display: block;
+    margin: 0 10px;
+    color: $primary5;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    &.act{
+      background-color: $primary3;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      color: $primary1;
+      text-align: center;
+      line-height: 34px;
+      box-shadow: 0 30px 80px -30px rgba($primary4,.9);
+    }
+    &.disable{
+      opacity: .4;
+    }
+  }
 }

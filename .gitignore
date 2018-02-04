@@ -22,5 +22,6 @@ nbproject
 # sass cache files
 *.sass-cache
 
+/build/
 /upload/
 node_modules
