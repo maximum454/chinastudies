@@ -25,5 +25,10 @@ $(function () {
         autoplay: true,
         autoplaySpeed: 8000
     });
+    
+    $('.js-search').on('click', function () {
+        $('.header__search').toggle();
+        $('.header__search input').focus();
+    });
 });
 

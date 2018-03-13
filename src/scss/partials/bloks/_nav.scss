@@ -19,6 +19,9 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		text-decoration: none;
+		&:hover{
+			color: $primary4;
+		}
 	}
 	li{
 		&:hover{
