@@ -3,6 +3,7 @@
   width: 100%;
   background-image: url("../img/slider-strategy__bg.png");
   background-size: cover;
+  overflow: hidden;
   &__inner {
     width: 100%;
     max-width: 1110px;

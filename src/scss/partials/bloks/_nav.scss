@@ -6,6 +6,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
 	&__item{
 		display: block;
 		padding: 12px 0;
@@ -15,5 +19,45 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		text-decoration: none;
+	}
+	li{
+		&:hover{
+			.nav__level{
+				display: block;
+			}
+		}
+	}
+	&__level{
+		position: absolute;
+		top: 41px;
+		list-style: none;
+		margin: 0;
+		padding: 15px;
+		background-color: $primary4;
+		display: none;
+		li{
+			&:last-child a{
+				margin: 0;
+			}
+		}
+		.nav__item{
+			padding: 0;
+			margin-bottom: 15px;
+			font-weight: normal;
+
+			&:hover{
+				color: $primary3;
+			}
+		}
+	}
+	&__search{
+		background-image: url("../img/nav__search.svg");
+		width: 20px;
+		height: 20px;
+		padding: 0 5px;
+		cursor: pointer;
+		&:hover{
+			background-image: url("../img/nav__search.svg");
+		}
 	}
 }
