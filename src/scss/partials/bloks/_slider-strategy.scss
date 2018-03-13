@@ -38,6 +38,9 @@
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
+    &:hover{
+      background-color: $primary4;
+    }
   }
   .slick-track{
 
