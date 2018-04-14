@@ -287,7 +287,13 @@
   &__img {
     width: 100%;
     height: 100%;
-
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
     &.color1 {
       box-shadow: 0 30px 80px -30px rgba($primary7,.9);
       &:before {
