@@ -1,5 +1,5 @@
 {
-  "name": "tvoioboikz",
+  "name": "chinastudies",
   "version": "1.0.0",
   "description": "ERROR: No README data found!",
   "main": "gulpfile.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://maximum454@bitbucket.org/maximum454/tvoioboikz.git"
+    "url": "git+https://maximum454@bitbucket.org/maximum454/chinastudies.git"
   },
-  "author": "",
-  "license": "BSD",
-  "homepage": "https://bitbucket.org/maximum454/tvoioboikz#readme",
+  "author": "mad_max",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/maximum454/chinastudies#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.7",
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.4.0",
@@ -26,16 +26,16 @@
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-rigger": "^0.5.8",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^3.2.1",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^2.1.2",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
-    "imagemin-pngquant": "^5.0.1",
+    "imagemin-pngquant": "^5.1.0",
     "rimraf": "^2.6.2"
   },
   "dependencies": {
     "cssmin": "^0.4.3",
-    "gulp-sass": "^3.1.0"
+    "node-static": "^0.7.10"
   }
 }
