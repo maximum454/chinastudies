@@ -20,10 +20,22 @@
 		top: 30px;
 		left: 0;
 		right: 0;
-		z-index: 10;
+		z-index: 100;
 		width: 100%;
 		max-width: 1110px;
 		margin: 0 auto;
+		&.fixed{
+			max-width: 100%;
+			position: fixed;
+			top: 0;
+			background-color: #E6A74D;
+			.nav__item{
+				&:hover{
+					color: #453F40;
+				}
+
+			}
+		}
 	}
 	&__inner{
 		position: relative;

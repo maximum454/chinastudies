@@ -30,5 +30,13 @@ $(function () {
         $('.header__search').toggle();
         $('.header__search input').focus();
     });
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 30) {
+            $('.js-nav').addClass('fixed')
+        } else {
+            $('.js-nav').removeClass('fixed')
+        }
+    });
 });
 
